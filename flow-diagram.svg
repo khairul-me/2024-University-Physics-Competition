@@ -1,0 +1,34 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Space Station Body -->
+  <rect x="100" y="100" width="600" height="200" fill="none" stroke="white" stroke-width="3"/>
+  
+  <!-- Flow Lines -->
+  <path d="M 400 100 C 400 70, 400 70, 400 50" stroke="blue" stroke-width="2" fill="none"/>
+  <path d="M 390 100 C 390 75, 390 75, 390 60" stroke="blue" stroke-width="2" fill="none"/>
+  <path d="M 410 100 C 410 75, 410 75, 410 60" stroke="blue" stroke-width="2" fill="none"/>
+  
+  <!-- Hole -->
+  <circle cx="400" cy="100" r="5" fill="black"/>
+  
+  <!-- Temperature Gradient -->
+  <defs>
+    <linearGradient id="tempGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:blue;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:red;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  <rect x="110" y="110" width="580" height="180" fill="url(#tempGradient)" opacity="0.3"/>
+  
+  <!-- Pressure Indicators -->
+  <text x="150" y="200" fill="white" font-family="Arial" font-size="14">P₁ = 1 atm</text>
+  <text x="600" y="200" fill="white" font-family="Arial" font-size="14">P₂ = 0.3 atm</text>
+  
+  <!-- Flow Indicators -->
+  <text x="410" y="80" fill="white" font-family="Arial" font-size="12">Sonic Flow</text>
+  
+  <!-- Dimensions -->
+  <text x="350" y="350" fill="white" font-family="Arial" font-size="12">L = 75m</text>
+  <line x1="100" y1="340" x2="700" y2="340" stroke="white" stroke-width="1"/>
+  <line x1="100" y1="335" x2="100" y2="345" stroke="white" stroke-width="1"/>
+  <line x1="700" y1="335" x2="700" y2="345" stroke="white" stroke-width="1"/>
+</svg>

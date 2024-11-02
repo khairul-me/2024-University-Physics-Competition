@@ -1,0 +1,32 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Space Station Cross Section -->
+  <rect x="100" y="100" width="600" height="300" fill="none" stroke="white" stroke-width="2"/>
+  
+  <!-- Temperature Gradient -->
+  <defs>
+    <linearGradient id="temp" x1="0%" y1="0%" x2="100%" y1="0%">
+      <stop offset="0%" style="stop-color:red;stop-opacity:0.5"/>
+      <stop offset="80%" style="stop-color:yellow;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:blue;stop-opacity:0.5"/>
+    </linearGradient>
+  </defs>
+  <rect x="110" y="110" width="580" height="280" fill="url(#temp)"/>
+  
+  <!-- Phase Regions -->
+  <circle cx="650" cy="250" r="30" fill="lightblue" opacity="0.5"/>
+  <text x="630" y="255" fill="white" font-family="Arial" font-size="10">Ice Formation</text>
+  
+  <!-- Temperature Scale -->
+  <rect x="100" y="450" width="600" height="20" fill="url(#temp)"/>
+  <text x="100" y="490" fill="white" font-family="Arial" font-size="12">211K</text>
+  <text x="380" y="490" fill="white" font-family="Arial" font-size="12">250K</text>
+  <text x="680" y="490" fill="white" font-family="Arial" font-size="12">293K</text>
+  
+  <!-- Flow Direction -->
+  <path d="M 670 250 L 700 250" stroke="white" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="white"/>
+    </marker>
+  </defs>
+</svg>

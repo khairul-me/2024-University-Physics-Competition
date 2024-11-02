@@ -1,0 +1,30 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Space Station Cross Section -->
+  <rect x="100" y="100" width="600" height="300" fill="none" stroke="white" stroke-width="2"/>
+  
+  <!-- Stress Indicators -->
+  <defs>
+    <linearGradient id="stressGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:green;stop-opacity:0.5"/>
+      <stop offset="50%" style="stop-color:yellow;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:red;stop-opacity:0.5"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Hoop Stress -->
+  <path d="M 400 100 Q 500 250 400 400" stroke="red" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  <text x="450" y="250" fill="red" font-family="Arial" font-size="14">Hoop Stress</text>
+  
+  <!-- Longitudinal Stress -->
+  <line x1="100" y1="250" x2="700" y2="250" stroke="blue" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="350" y="230" fill="blue" font-family="Arial" font-size="14">Longitudinal Stress</text>
+  
+  <!-- Critical Points -->
+  <circle cx="400" cy="100" r="5" fill="yellow"/>
+  <text x="410" y="90" fill="white" font-family="Arial" font-size="12">Critical Point</text>
+  
+  <!-- Stress Scale -->
+  <rect x="100" y="450" width="600" height="20" fill="url(#stressGradient)"/>
+  <text x="100" y="490" fill="white" font-family="Arial" font-size="12">Min Stress</text>
+  <text x="680" y="490" fill="white" font-family="Arial" font-size="12">Max Stress</text>
+</svg>

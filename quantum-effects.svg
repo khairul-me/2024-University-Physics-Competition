@@ -1,0 +1,22 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Surface Region -->
+  <rect x="100" y="300" width="600" height="200" fill="grey" opacity="0.3"/>
+  
+  <!-- Potential Well -->
+  <path d="M 200 400 C 300 200, 400 200, 500 400" 
+        stroke="white" fill="none" stroke-width="2"/>
+  
+  <!-- Wave Function -->
+  <path d="M 200 350 C 250 320, 300 380, 350 350 C 400 320, 450 380, 500 350" 
+        stroke="blue" fill="none" stroke-width="2"/>
+  
+  <!-- Tunneling Region -->
+  <rect x="350" y="200" width="50" height="200" fill="yellow" opacity="0.2"/>
+  <text x="340" y="180" fill="white" font-family="Arial" font-size="12">Tunneling Region</text>
+  
+  <!-- Energy Levels -->
+  <line x1="150" y1="320" x2="550" y2="320" stroke="red" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="150" y1="350" x2="550" y2="350" stroke="red" stroke-width="1" stroke-dasharray="5,5"/>
+  <text x="560" y="320" fill="white" font-family="Arial" font-size="12">E₁</text>
+  <text x="560" y="350" fill="white" font-family="Arial" font-size="12">E₀</text>
+</svg>

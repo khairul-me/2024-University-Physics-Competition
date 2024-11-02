@@ -1,0 +1,23 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Space Station Layout -->
+  <rect x="100" y="100" width="600" height="300" fill="none" stroke="white" stroke-width="2"/>
+  
+  <!-- Emergency Systems -->
+  <!-- Pressure Sensors -->
+  <circle cx="200" cy="100" r="5" fill="green"/>
+  <circle cx="400" cy="100" r="5" fill="green"/>
+  <circle cx="600" cy="100" r="5" fill="green"/>
+  <text x="180" y="80" fill="green" font-family="Arial" font-size="12">Pressure Sensors</text>
+  
+  <!-- Emergency Seals -->
+  <rect x="350" y="95" width="100" height="10" fill="red"/>
+  <text x="360" y="80" fill="red" font-family="Arial" font-size="12">Emergency Seal</text>
+  
+  <!-- Warning Systems -->
+  <path d="M 150 150 L 170 180 L 130 180 Z" fill="yellow"/>
+  <text x="130" y="200" fill="yellow" font-family="Arial" font-size="12">Warning</text>
+  
+  <!-- Response Flowchart -->
+  <path d="M 200 450 L 600 450" stroke="white" stroke-width="1"/>
+  <text x="250" y="440" fill="white" font-family="Arial" font-size="12">Detection → Alert → Response → Containment</text>
+</svg>

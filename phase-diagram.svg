@@ -1,0 +1,23 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Coordinate System -->
+  <line x1="100" y1="500" x2="700" y2="500" stroke="white" stroke-width="2"/>
+  <line x1="100" y1="500" x2="100" y2="100" stroke="white" stroke-width="2"/>
+  
+  <!-- Axis Labels -->
+  <text x="380" y="550" fill="white" font-family="Arial" font-size="16">Temperature (K)</text>
+  <text x="50" y="300" fill="white" transform="rotate(-90 50,300)" font-family="Arial" font-size="16">Pressure (kPa)</text>
+  
+  <!-- Phase Lines -->
+  <path d="M 200 500 C 300 400, 400 300, 500 150" stroke="white" stroke-width="2" fill="none"/>
+  <path d="M 400 500 C 450 400, 500 300, 600 200" stroke="white" stroke-width="2" fill="none"/>
+  
+  <!-- Phase Labels -->
+  <text x="250" y="400" fill="white" font-family="Arial" font-size="14">Solid</text>
+  <text x="450" y="400" fill="white" font-family="Arial" font-size="14">Liquid</text>
+  <text x="600" y="400" fill="white" font-family="Arial" font-size="14">Gas</text>
+  
+  <!-- Depressurization Path -->
+  <path d="M 600 200 L 300 400" stroke="red" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  <circle cx="600" cy="200" r="5" fill="red"/>
+  <circle cx="300" cy="400" r="5" fill="red"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Coordinate System -->
+  <line x1="100" y1="400" x2="700" y2="400" stroke="white" stroke-width="2"/>
+  <line x1="100" y1="400" x2="100" y2="100" stroke="white" stroke-width="2"/>
+  
+  <!-- Axis Labels -->
+  <text x="380" y="450" fill="white" font-family="Arial" font-size="16">Molecular Velocity (m/s)</text>
+  <text x="50" y="250" fill="white" transform="rotate(-90 50,250)" font-family="Arial" font-size="16">Probability Density</text>
+  
+  <!-- Initial Distribution (T₁ = 293K) -->
+  <path d="M 100 400 Q 150 380, 200 320 Q 300 200, 400 150 Q 500 200, 600 350 Q 650 380, 700 390" 
+        stroke="red" fill="none" stroke-width="2"/>
+  <text x="650" y="150" fill="red" font-family="Arial" font-size="14">T₁ = 293K</text>
+  
+  <!-- Final Distribution (T₂ = 211K) -->
+  <path d="M 100 400 Q 150 350, 200 250 Q 300 150, 350 140 Q 400 150, 500 300 Q 600 350, 700 380" 
+        stroke="blue" fill="none" stroke-width="2"/>
+  <text x="650" y="180" fill="blue" font-family="Arial" font-size="14">T₂ = 211K</text>
+  
+  <!-- Sonic Velocity Marker -->
+  <line x1="400" y1="400" x2="400" y2="100" stroke="white" stroke-width="1" stroke-dasharray="5,5"/>
+  <text x="410" y="420" fill="white" font-family="Arial" font-size="14">v_sonic</text>
+  
+  <!-- Legend -->
+  <rect x="550" y="100" width="200" height="80" fill="none" stroke="white"/>
+  <text x="570" y="130" fill="white" font-family="Arial" font-size="12">Initial Distribution</text>
+  <text x="570" y="160" fill="white" font-family="Arial" font-size="12">Final Distribution</text>
+  <line x1="650" y1="125" x2="700" y2="125" stroke="red" stroke-width="2"/>
+  <line x1="650" y1="155" x2="700" y2="155" stroke="blue" stroke-width="2"/>
+</svg>

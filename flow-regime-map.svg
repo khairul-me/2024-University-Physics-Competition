@@ -1,0 +1,27 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Coordinate System -->
+  <line x1="100" y1="400" x2="700" y2="400" stroke="white" stroke-width="2"/>
+  <line x1="100" y1="400" x2="100" y2="100" stroke="white" stroke-width="2"/>
+  
+  <!-- Axis Labels -->
+  <text x="350" y="450" fill="white" font-family="Arial" font-size="16">Pressure (log scale)</text>
+  <text x="50" y="250" fill="white" transform="rotate(-90 50,250)" font-family="Arial" font-size="16">Knudsen Number (log scale)</text>
+  
+  <!-- Regime Boundaries -->
+  <line x1="100" y1="350" x2="700" y2="200" stroke="white" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="300" x2="700" y2="150" stroke="white" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="250" x2="700" y2="100" stroke="white" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Regime Labels -->
+  <text x="150" y="380" fill="white" font-family="Arial" font-size="14">Continuum Flow</text>
+  <text x="150" y="320" fill="white" font-family="Arial" font-size="14">Slip Flow</text>
+  <text x="150" y="270" fill="white" font-family="Arial" font-size="14">Transitional Flow</text>
+  <text x="150" y="200" fill="white" font-family="Arial" font-size="14">Free Molecular Flow</text>
+  
+  <!-- Depressurization Path -->
+  <path d="M 600 370 L 200 250" stroke="red" stroke-width="3" fill="none"/>
+  <circle cx="600" cy="370" r="5" fill="red"/>
+  <circle cx="200" cy="250" r="5" fill="red"/>
+  <text x="610" y="380" fill="red" font-family="Arial" font-size="12">Start (1 atm)</text>
+  <text x="150" y="240" fill="red" font-family="Arial" font-size="12">End (0.3 atm)</text>
+</svg>
