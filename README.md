@@ -13,6 +13,7 @@
 - [References](#references)
 
 ## Problem Statement
+![image](https://github.com/user-attachments/assets/2b94418f-6bf9-4355-80ca-c60f2d9e60f2)
 
 A cylindrical space station experiences a micrometeoroid impact that creates a hole in its hull, leading to air evacuation. The challenge is to determine:
 1. The time required for the internal pressure to drop from 1 atm to 0.3 atm
