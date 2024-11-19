@@ -102,26 +102,7 @@ The solution follows these key steps:
 | 2.0 cm       | 7.9 minutes    |
 
 ## Visualization
-
-### Pressure Decay Over Time
-```mermaid
-xychart-beta
-    title "Pressure vs Time for Different Hole Sizes"
-    x-axis [0, 1, 2, 3] "Time (hours)"
-    y-axis "Pressure (kPa)" 120
-    line [101.3, 75, 55, 40] "0.5 cm"
-    line [101.3, 45, 32, 30.4] "1.0 cm"
-    line [101.3, 32, 30.4, 30.4] "2.0 cm"
-```
-
-### Temperature Evolution
-```mermaid
-xychart-beta
-    title "Temperature Evolution During Evacuation"
-    x-axis [0, 15, 30, 45] "Time (minutes)"
-    y-axis "Temperature (K)" 300
-    line [293.15, 260, 230, 211.07] "Temperature"
-```
+![image](https://github.com/user-attachments/assets/67a72516-c755-4b51-9d9c-501b465def08)
 
 ## Safety Considerations
 
